@@ -84,7 +84,7 @@
       }
     },
     {
-      "weight": 4,
+      "weight": 8,
       "element": {
         "location": "strongholds:room/basic_3",
         "processors": "strongholds:stronghold_degradation",
@@ -219,7 +219,7 @@
       }
     },
      {
-      "weight": 3,
+      "weight": 5,
       "element": {
         "location": "strongholds:secret/statue",
         "processors": "strongholds:stronghold_degradation",
@@ -228,7 +228,7 @@
       }
     },
     {
-      "weight": 10,
+      "weight": 3,
       "element": {
         "location": "strongholds:secret/ominous_statue",
         "processors": "strongholds:stronghold_degradation",

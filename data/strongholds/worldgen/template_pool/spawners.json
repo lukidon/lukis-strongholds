@@ -14,6 +14,15 @@
     {
       "weight": 25,
       "element": {
+        "location": "strongholds:spawners/empty",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 25,
+      "element": {
         "location": "strongholds:spawners/skeleton",
         "processors": "minecraft:empty",
 		"projection": "rigid",
