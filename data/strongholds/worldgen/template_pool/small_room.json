@@ -22,7 +22,7 @@
       }
     },
     {
-      "weight": 40,
+      "weight": 5,
       "element": {
         "location": "strongholds:small_room/statue_ominous_vault",
         "processors": "strongholds:stronghold_degradation",
@@ -31,7 +31,7 @@
       }
     },
      {
-      "weight": 15,
+      "weight": 20,
       "element": {
         "location": "strongholds:small_room/trial_spawner",
         "processors": "strongholds:stronghold_degradation",
@@ -40,7 +40,7 @@
       }
     },
       {
-      "weight": 3,
+      "weight": 10,
       "element": {
         "location": "strongholds:small_room/pots",
         "processors": "strongholds:stronghold_degradation",
@@ -49,7 +49,7 @@
       }
     },
       {
-      "weight": 3,
+      "weight": 10,
       "element": {
         "location": "strongholds:small_room/books",
         "processors": "strongholds:stronghold_degradation",
