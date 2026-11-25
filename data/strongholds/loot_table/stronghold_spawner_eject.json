@@ -4,23 +4,30 @@
     {
       "rolls": 1,
       "entries": [
-        {
-          "type": "minecraft:item",
+       {
+          "type": "item",
+          "weight": 1,
           "name": "minecraft:trial_key",
-          "weight": 7,
           "functions": [
             {
-              "function": "minecraft:set_components",
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
               "components": {
-                "minecraft:item_name": "Stronghold Key",
-                "minecraft:custom_model_data": {
-                  "floats": [
-                    6767
-                  ]
-                }
+                "minecraft:custom_model_data": 6767
               }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Stronghold Key"
+                }
+              ],
+              "target": "item_name"
             }
-            
           ]
         }
       ]

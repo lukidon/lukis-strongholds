@@ -5,23 +5,29 @@
       "rolls": 1,
       "entries": [
        
-        {
-          "type": "minecraft:item",
+         {
+          "type": "item",
+          "weight": 65,
           "name": "minecraft:ominous_trial_key",
-          "weight": 60,
           "functions": [
             {
-              "function": "minecraft:set_components",
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
               "components": {
-                "minecraft:item_name": "Dragon Key",
-                "minecraft:custom_model_data": {
-                  "floats": [
-                    6768
-                  ]
-                }
+                "minecraft:custom_model_data": 6768
               }
-              
-              
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Dragon Key"
+                }
+              ],
+              "target": "item_name"
             }
           ]
         },

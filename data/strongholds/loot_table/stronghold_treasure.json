@@ -201,23 +201,31 @@
       "entries": [
         {
           "type": "minecraft:empty",
-          "weight": 2
+          "weight": 3
         },
         {
-          "type": "minecraft:item",
+          "type": "item",
+          "weight": 1,
           "name": "minecraft:trial_key",
-           "weight": 1,
           "functions": [
             {
-              "function": "minecraft:set_components",
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
               "components": {
-                "minecraft:item_name": "Stronghold Key",
-                "minecraft:custom_model_data": {
-                  "floats": [
-                    6767
-                  ]
-                }
+                "minecraft:custom_model_data": 6767
               }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Stronghold Key"
+                }
+              ],
+              "target": "item_name"
             }
           ]
         }
@@ -231,21 +239,29 @@
           "type": "minecraft:empty",
           "weight": 7
         },
-         {
-          "type": "minecraft:item",
+           {
+          "type": "item",
+          "weight": 1,
           "name": "minecraft:ominous_trial_key",
-           "weight": 1,
           "functions": [
             {
-              "function": "minecraft:set_components",
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
               "components": {
-                "minecraft:item_name": "Dragon Key",
-                "minecraft:custom_model_data": {
-                  "floats": [
-                    6768
-                  ]
-                }
+                "minecraft:custom_model_data": 6768
               }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Dragon Key"
+                }
+              ],
+              "target": "item_name"
             }
           ]
         }
@@ -269,3 +285,4 @@
     }
   ]
 }
+
